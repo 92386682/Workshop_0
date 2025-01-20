@@ -11,6 +11,7 @@ The basic movement were very simple var ++ statements, with varying negative or 
 y = y + 1;
 z = z - 1;
 BO = BO + 1;`
+
 with x, y, z and BO all being variables determining the x/y coordinates of the squares themselves.
 
 That said, I ended up simplifying this down to squares rather than rectangles, as the geometry of rectangles was difficult without overcomplicating variables (as it would require morphing the size of each rectangle to fit with orientation, as well as the x/y values for movement.
